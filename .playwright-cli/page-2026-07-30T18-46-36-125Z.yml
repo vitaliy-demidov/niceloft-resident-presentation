@@ -1,0 +1,184 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "N-Ice Loft" [ref=e5] [cursor=pointer]:
+      - /url: "#top"
+      - text: N·ICE LOFT
+    - navigation "Разделы презентации" [ref=e6]:
+      - link "01 Зачем" [ref=e7] [cursor=pointer]:
+        - /url: "#why"
+        - generic [ref=e8]: "01"
+        - text: Зачем
+      - link "02 Сценарии" [ref=e9] [cursor=pointer]:
+        - /url: "#scenarios"
+        - generic [ref=e10]: "02"
+        - text: Сценарии
+      - link "03 Для кого" [ref=e11] [cursor=pointer]:
+        - /url: "#audience"
+        - generic [ref=e12]: "03"
+        - text: Для кого
+      - link "04 Будущее" [ref=e13] [cursor=pointer]:
+        - /url: "#future"
+        - generic [ref=e14]: "04"
+        - text: Будущее
+    - link "Открыть приложение" [ref=e15] [cursor=pointer]:
+      - /url: http://127.0.0.1:3102/
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - paragraph [ref=e22]: Личная инфраструктура жителей
+        - heading [level=1] [ref=e23]:
+          - text: Дом, который
+          - emphasis [ref=e24]: работает на вас.
+        - paragraph [ref=e25]: "N-Ice Loft соединяет жителей одного дома в понятную цифровую среду: ремонт, вещи, мастера, общение и взаимная польза — без посредников и лишнего шума."
+        - generic [ref=e26]:
+          - link "Попробовать N-Ice Loft" [ref=e27] [cursor=pointer]:
+            - /url: http://127.0.0.1:3102/
+          - link "Посмотреть идею" [ref=e30] [cursor=pointer]:
+            - /url: "#why"
+        - generic [ref=e33]: Сделано для жителей, а не для отчётности
+      - generic [ref=e35]:
+        - generic [ref=e39]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: 09:41
+            - generic [ref=e43]: ● ◔ ▪
+          - generic [ref=e44]:
+            - paragraph [ref=e45]: N-ICE LOFT
+            - heading [level=2] [ref=e46]:
+              - text: Добрый вечер,
+              - strong [ref=e47]: Виталий
+            - paragraph [ref=e48]: Кв. 128 · доступ подтверждён
+            - generic [ref=e49]:
+              - generic [ref=e50]: Доступно
+              - strong [ref=e51]: 410 LC
+              - generic [ref=e52]: 50 LC ожидают проверки
+              - generic [ref=e54]:
+                - generic [ref=e55]:
+                  - text: "2"
+                  - generic [ref=e56]: задачи
+                - generic [ref=e57]:
+                  - text: "1"
+                  - generic [ref=e58]: пропуск
+                - generic [ref=e59]:
+                  - text: "2"
+                  - generic [ref=e60]: приглашено
+            - generic [ref=e61]:
+              - generic [ref=e62]: Быстрые действия
+              - generic [ref=e63]: N-Ice Loft
+            - generic [ref=e64]:
+              - generic [ref=e65]:
+                - generic [ref=e68]: Ремонт
+                - generic [ref=e69]: Получить цены мастеров
+              - generic [ref=e70]:
+                - generic [ref=e75]: Витрина
+                - generic [ref=e76]: Вещи для соседей
+              - generic [ref=e77]:
+                - generic [ref=e80]: Чат дома
+                - generic [ref=e81]: Свои люди рядом
+              - generic [ref=e82]:
+                - generic [ref=e86]: Мастера
+                - generic [ref=e87]: Проверенные контакты
+        - generic [ref=e112]: Житель подтверждён
+        - generic [ref=e117]: 4.9 · соседи рекомендуют
+    - generic [ref=e121]:
+      - generic [ref=e122]:
+        - paragraph [ref=e123]: Почему это нужно
+        - heading [level=2] [ref=e124]:
+          - text: Обычные задачи
+          - emphasis [ref=e125]: не должны быть сложными.
+      - generic [ref=e126]:
+        - paragraph [ref=e127]: После ремонта остаются вещи. Перед ремонтом нужны люди. В новом доме хочется понимать, кому можно доверять, а не начинать поиск с нуля.
+        - paragraph [ref=e128]: N-Ice Loft превращает дом из адреса в живую сеть взаимной помощи — с понятными правилами, контекстом и уважением к приватности.
+        - link "Как это работает" [ref=e129] [cursor=pointer]:
+          - /url: "#scenarios"
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - paragraph [ref=e134]: Четыре опоры
+        - generic [ref=e135]: 01 — 04
+      - generic [ref=e136]:
+        - article [ref=e137]:
+          - generic [ref=e138]: "01"
+          - heading "Ремонт без хаоса" [level=3] [ref=e142]
+          - paragraph [ref=e143]: Опишите задачу один раз, получите предложения проверенных соседями мастеров и сравните цену, сроки и состав работ.
+        - article [ref=e146]:
+          - generic [ref=e147]: "02"
+          - heading "Вторая жизнь вещей" [level=3] [ref=e153]
+          - paragraph [ref=e154]: Остатки плитки, мебель, техника и инструмент находят нового владельца внутри дома, пока они ещё нужны.
+        - article [ref=e157]:
+          - generic [ref=e158]: "03"
+          - heading "Свои люди рядом" [level=3] [ref=e162]
+          - paragraph [ref=e163]: Контекстные диалоги вместо случайных чатов. Обсуждайте заказ или передачу, не раскрывая личные данные заранее.
+        - article [ref=e166]:
+          - generic [ref=e167]: "04"
+          - heading "Экономика участия" [level=3] [ref=e172]
+          - paragraph [ref=e173]: "LoftCoins возвращают ценность тем, кто помогает сообществу: рекомендует мастера, делится опытом и приглашает соседей."
+    - generic [ref=e176]:
+      - generic [ref=e177]:
+        - paragraph [ref=e178]: Один дом — один контекст
+        - heading [level=2] [ref=e179]:
+          - text: От запроса
+          - emphasis [ref=e180]: до результата.
+      - generic [ref=e181]:
+        - generic [ref=e182]:
+          - generic [ref=e183]: "01"
+          - generic [ref=e184]:
+            - heading "Открываете N-Ice Loft" [level=3] [ref=e185]
+            - paragraph [ref=e186]: "Ваш дом уже собран внутри: люди, полезные контакты, вещи и локальные сценарии."
+        - generic [ref=e187]:
+          - generic [ref=e188]: "02"
+          - generic [ref=e189]:
+            - heading "Решаете бытовую задачу" [level=3] [ref=e190]
+            - paragraph [ref=e191]: Найти плиточника, отдать краску, спросить соседа или начать ремонт — в два-три нажатия.
+        - generic [ref=e192]:
+          - generic [ref=e193]: "03"
+          - generic [ref=e194]:
+            - heading "Получаете пользу обратно" [level=3] [ref=e195]
+            - paragraph [ref=e196]: Меньше поиска и риска, больше доверия, экономии и понятных договорённостей.
+    - generic [ref=e197]:
+      - generic [ref=e198]:
+        - paragraph [ref=e199]: Для кого
+        - heading [level=2] [ref=e200]:
+          - text: Если вы живётев доме —
+          - emphasis [ref=e201]: это для вас.
+        - paragraph [ref=e202]: Неважно, владеете вы квартирой или снимаете её. Важно, что ваши самые полезные связи уже находятся рядом.
+        - link "Зайти в свой дом" [ref=e203] [cursor=pointer]:
+          - /url: http://127.0.0.1:3102/
+      - generic [ref=e206]:
+        - generic [ref=e207]:
+          - generic [ref=e208]: "01"
+          - generic [ref=e209]:
+            - heading "Жителям с ремонтом" [level=3] [ref=e210]
+            - paragraph [ref=e211]: "От идеи до принятой работы: задача, предложения, заказ и отзыв."
+        - generic [ref=e212]:
+          - generic [ref=e213]: "02"
+          - generic [ref=e214]:
+            - heading "Тем, кто обустраивает дом" [level=3] [ref=e215]
+            - paragraph [ref=e216]: Продайте или отдайте то, что осталось после переезда и ремонта.
+        - generic [ref=e217]:
+          - generic [ref=e218]: "03"
+          - generic [ref=e219]:
+            - heading "Активным соседям" [level=3] [ref=e220]
+            - paragraph [ref=e221]: Помогайте другим, собирайте репутацию и получайте LoftCoins.
+    - generic [ref=e222]:
+      - generic [ref=e227]:
+        - paragraph [ref=e228]: Доверие по умолчанию
+        - heading [level=2] [ref=e229]:
+          - text: Ваши данные —
+          - emphasis [ref=e230]: ваша территория.
+        - paragraph [ref=e231]: N-Ice Loft показывает только то, что нужно для конкретного действия. Номер квартиры и телефон не раскрываются без согласия. Сделки происходят между жителями, а не через платформу.
+      - generic [ref=e232]:
+        - generic [ref=e233]: Общий контекст ЖК
+        - generic [ref=e236]: Приватные диалоги
+        - generic [ref=e239]: Подтверждённые отзывы
+    - generic [ref=e242]:
+      - paragraph [ref=e243]: Новая норма соседства
+      - heading [level=2] [ref=e244]:
+        - text: Меньше поиска.
+        - emphasis [ref=e245]: Больше своего.
+      - paragraph [ref=e246]: Начните с одной задачи. Остальное появится, когда дом начнёт работать как сообщество.
+      - link "Открыть N-Ice Loft" [ref=e247] [cursor=pointer]:
+        - /url: http://127.0.0.1:3102/
+  - contentinfo [ref=e250]:
+    - generic [ref=e251]: © 2026 N-Ice Loft
+    - generic [ref=e252]: Продукт для жителей
+    - link "Наверх" [ref=e253] [cursor=pointer]:
+      - /url: "#top"
