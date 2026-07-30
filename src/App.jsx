@@ -65,7 +65,7 @@ function App() {
         <nav className={`topnav ${menuOpen ? 'is-open' : ''}`} aria-label="Разделы презентации">
           {nav.map(([number, label, href]) => <a key={href} href={href} onClick={() => setMenuOpen(false)}><small>{number}</small>{label}</a>)}
         </nav>
-        <a className="top-cta" href="https://aeae750b.niceloft-resident-app.pages.dev/">Открыть приложение <ArrowUpRight /></a>
+        <a className="top-cta" href="https://niceloft-resident-app.pages.dev/">Открыть приложение <ArrowUpRight /></a>
         <button className="menu-button" type="button" aria-label="Открыть меню" onClick={() => setMenuOpen(!menuOpen)}><span /><span /></button>
       </header>
 
@@ -76,7 +76,7 @@ function App() {
             <motion.h1 initial={{ opacity: 0, y: 26 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .8, delay: .1 }}>Дом, который<br /><em>работает на вас.</em></motion.h1>
             <motion.p className="hero-lede" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: .7, delay: .25 }}>N-Ice Loft соединяет жителей одного дома в понятную цифровую среду: ремонт, вещи, мастера, общение и взаимная польза — без посредников и лишнего шума.</motion.p>
             <motion.div className="hero-actions" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .7, delay: .4 }}>
-              <a className="button button-primary" href="https://aeae750b.niceloft-resident-app.pages.dev/">Попробовать N-Ice Loft <ArrowRight /></a>
+              <a className="button button-primary" href="https://niceloft-resident-app.pages.dev/">Попробовать N-Ice Loft <ArrowRight /></a>
               <a className="text-link" href="#why">Посмотреть идею <ArrowDown /></a>
             </motion.div>
             <div className="hero-note"><span className="live-dot" /> Сделано для жителей, а не для отчётности</div>
@@ -119,7 +119,7 @@ function App() {
         </section>
 
         <section className="audience section" id="audience">
-        <div className="audience-main"><p className="eyebrow">Для кого</p><h2>Если вы живёте <br /> в доме — <em>это для вас.</em></h2><p className="audience-lede">Неважно, владеете вы квартирой или снимаете её. Важно, что ваши самые полезные связи уже находятся рядом.</p><a className="button button-primary" href="https://aeae750b.niceloft-resident-app.pages.dev/">Зайти в свой дом <ArrowRight /></a></div>
+        <div className="audience-main"><p className="eyebrow">Для кого</p><h2>Если вы живёте <br /> в доме — <em>это для вас.</em></h2><p className="audience-lede">Неважно, владеете вы квартирой или снимаете её. Важно, что ваши самые полезные связи уже находятся рядом.</p><a className="button button-primary" href="https://niceloft-resident-app.pages.dev/">Зайти в свой дом <ArrowRight /></a></div>
           <div className="audience-list">{audience.map(([title, text], i) => <div className="audience-item" key={title}><span>0{i + 1}</span><div><h3>{title}</h3><p>{text}</p></div></div>)}</div>
         </section>
 
@@ -127,7 +127,7 @@ function App() {
 
         <section className="trust section"><div className="trust-mark"><ShieldCheck /></div><div><p className="eyebrow">Доверие по умолчанию</p><h2>Ваши данные —<br /><em>ваша территория.</em></h2><p>N-Ice Loft показывает только то, что нужно для конкретного действия. Номер квартиры и телефон не раскрываются без согласия. Сделки происходят между жителями, а не через платформу.</p></div><div className="trust-points"><span><Check /> Общий контекст ЖК</span><span><Check /> Приватные диалоги</span><span><Check /> Подтверждённые отзывы</span></div></section>
 
-        <section className="closing section" id="future"><p className="eyebrow">Новая норма соседства</p><h2>Меньше поиска.<br /><em>Больше своего.</em></h2><p>Начните с одной задачи. Остальное появится, когда дом начнёт работать как сообщество.</p><a className="button button-primary" href="https://aeae750b.niceloft-resident-app.pages.dev/">Открыть N-Ice Loft <ArrowRight /></a></section>
+        <section className="closing section" id="future"><p className="eyebrow">Новая норма соседства</p><h2>Меньше поиска.<br /><em>Больше своего.</em></h2><p>Начните с одной задачи. Остальное появится, когда дом начнёт работать как сообщество.</p><a className="button button-primary" href="https://niceloft-resident-app.pages.dev/">Открыть N-Ice Loft <ArrowRight /></a></section>
       </main>
 
       <footer className="footer"><span>© 2026 N-Ice Loft</span><span>Продукт для жителей</span><a href="#top">Наверх <ArrowUpRight /></a></footer>
